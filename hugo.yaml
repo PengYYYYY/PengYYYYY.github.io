@@ -1,0 +1,116 @@
+baseURL: "https://pengyyyyy.github.io/"
+title: PY Blog
+theme: PaperMod
+defaultContentLanguage: zh
+locale: zh-CN
+hasCJKLanguage: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+buildExpired: false
+enableEmoji: true
+enableGitInfo: false
+
+pagination:
+  pagerSize: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+permalinks:
+  posts: /posts/:contentbasename/
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+params:
+  env: production
+  title: PY Blog
+  description: PY 的学习笔记博客，主要记录 LLM / Agent 相关阅读与整理。
+  keywords:
+    - LLM
+    - Agent
+    - Blog
+  author: PY
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  mainSections:
+    - posts
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  hideAuthor: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: /favicon.svg
+    favicon16x16: /favicon.svg
+    favicon32x32: /favicon.svg
+    disableHLJS: true
+
+  label:
+    text: PY Blog
+
+  homeInfoParams:
+    Title: "👋 欢迎来到 PY Blog"
+    Content: |
+      这里是 PY 的学习笔记博客，主要记录 LLM / Agent 相关阅读与整理；旧站 [PengYYYYY/blog](https://github.com/PengYYYYY/blog) 不再维护。
+
+      不必按目录读。若想顺着一条线走：先翻名词词典和「跟着一个 token 走完全程」，再看多模态或分布式；Agent 可以从 ReAct 论文笔记接到「跟着一次循环走完全程」。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/PengYYYYY"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+  highlight:
+    noClasses: false
+    style: github
+    tabWidth: 4
+
+pygmentsUseClasses: true

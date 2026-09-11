@@ -1,0 +1,5 @@
+{{- /* Lil’Log-style English meta line, independent of site locale. */ -}}
+{{- $months := slice "January" "February" "March" "April" "May" "June" "July" "August" "September" "October" "November" "December" -}}
+{{- $date := printf "%s %d, %d" (index $months (sub (int .Date.Month) 1)) .Date.Day .Date.Year -}}
+{{- $author := partial "author.html" . | default site.Params.author -}}
+Date: {{ $date }}&nbsp;&nbsp;|&nbsp;&nbsp;Estimated Reading Time: {{ .ReadingTime }} min&nbsp;&nbsp;|&nbsp;&nbsp;Author: {{ $author }}
