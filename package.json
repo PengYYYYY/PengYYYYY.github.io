@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.12",
-    "astro": "^5.13.7",
+    "astro": "^7.3.2",
     "hast-util-to-string": "^3.0.1",
     "remark-gfm": "^4.0.1",
     "unist-util-visit": "^5.0.0"
