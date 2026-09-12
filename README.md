@@ -1,6 +1,6 @@
 # PY Blog
 
-PY（PengYYYYY）的学习笔记博客。栈与版式对齐 [Lil’Log](https://lilianweng.github.io/)：**Hugo + [PaperMod](https://github.com/adityatelange/hugo-PaperMod)**（Home-Info：欢迎语 + 按时间排列的文章列表；顶栏导航；无文档侧栏）。页脚为 PaperMod 默认的 *Powered by Hugo & PaperMod*。
+PY（PengYYYYY）的学习笔记博客，用 **Hugo + [PaperMod](https://github.com/adityatelange/hugo-PaperMod)** 搭建（Home-Info：欢迎语 + 按时间排列的文章列表；顶栏导航；无文档侧栏）。页脚为 PaperMod 默认的 *Powered by Hugo & PaperMod*。
 
 - 站点名：**PY Blog / py-blog**
 - 作者：**PY**
@@ -11,7 +11,7 @@ PY（PengYYYYY）的学习笔记博客。栈与版式对齐 [Lil’Log](https://
 
 ## 本地开发
 
-需要 [Hugo Extended](https://gohugo.io/installation/) **≥ 0.146**（Lil’Log 现用 0.163.x 一带）。
+需要 [Hugo Extended](https://gohugo.io/installation/) **≥ 0.146**（本仓库 CI 使用 0.163.3）。
 
 ```bash
 # macOS
