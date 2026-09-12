@@ -1,0 +1,25 @@
+.first-entry.home-info {
+  min-height: 0;
+  margin: var(--gap) 0;
+  justify-content: flex-start;
+}
+
+.about-list {
+  display: grid;
+  gap: 1em;
+  margin-top: 0.4em;
+}
+
+.about-list > div {
+  display: grid;
+  grid-template-columns: 2.2em 1fr;
+  column-gap: 0.45em;
+  align-items: start;
+  line-height: 1.8;
+}
+
+.about-emoji {
+  text-align: center;
+}
+
+

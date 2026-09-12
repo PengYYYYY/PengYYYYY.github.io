@@ -1,0 +1,120 @@
+baseURL: "https://pengyyyyy.github.io/"
+title: "PY'Blog"
+theme: PaperMod
+defaultContentLanguage: zh
+locale: zh-CN
+hasCJKLanguage: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: true
+buildExpired: false
+enableEmoji: true
+enableGitInfo: false
+
+pagination:
+  pagerSize: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+permalinks:
+  posts: /posts/:contentbasename/
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /
+      weight: 10
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+    - identifier: about
+      name: About Me
+      url: /about-me/
+      weight: 50
+
+params:
+  env: production
+  title: "PY'Blog"
+  description: PY 的博客
+  keywords:
+    - LLM
+    - Agent
+    - Blog
+  author: PY
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  mainSections:
+    - posts
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  hideAuthor: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: /favicon.png
+    favicon16x16: /favicon.png
+    favicon32x32: /favicon.png
+    disableHLJS: true
+
+  label:
+    text: "PY'Blog"
+    icon: /logo.png
+    iconHeight: 30
+
+  homeInfoParams:
+    Title: "👋 欢迎来到 PY'Blog"
+    Content: |
+      这里是 PY 的博客。
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/PengYYYYY"
+    - name: rss
+      url: "index.xml"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    parser:
+      attribute:
+        block: true
+  highlight:
+    noClasses: false
+    style: github
+    tabWidth: 4
+
+pygmentsUseClasses: true

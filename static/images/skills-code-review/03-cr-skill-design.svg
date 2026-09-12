@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" role="img" aria-label="Code Review Skill design">
+  <rect width="960" height="620" rx="24" fill="#f4f8ff"/>
+  <rect x="8" y="8" width="944" height="604" rx="18" fill="none" stroke="#1a1a1a" stroke-width="4"/>
+
+  <rect x="48" y="40" width="430" height="56" rx="10" fill="#d7ebff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="263" y="75" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="22" fill="#222">Git MCP</text>
+
+  <rect x="48" y="120" width="430" height="220" rx="16" fill="#fff6d8" stroke="#f0b429" stroke-width="3"/>
+  <rect x="76" y="150" width="168" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="160" y="189" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="18" fill="#222">Code Diff</text>
+  <rect x="76" y="236" width="168" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="160" y="275" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="18" fill="#222">需求文档</text>
+  <rect x="286" y="188" width="160" height="88" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="366" y="222" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="16" fill="#222">Code Review</text>
+  <text x="366" y="248" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="16" fill="#222">预设规则</text>
+
+  <path d="M244 182 C268 182 268 210 286 232" fill="none" stroke="#666" stroke-width="2"/>
+  <polygon points="286,232 276,226 276,238" fill="#666"/>
+  <path d="M244 268 C268 268 268 250 286 232" fill="none" stroke="#666" stroke-width="2"/>
+  <line x1="263" y1="96" x2="263" y2="150" stroke="#666" stroke-width="2"/>
+  <polygon points="263,150 257,138 269,138" fill="#666"/>
+
+  <rect x="48" y="370" width="430" height="190" rx="16" fill="#fbe8f4" stroke="#e8a0c8" stroke-width="3"/>
+  <rect x="76" y="392" width="374" height="52" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="263" y="425" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="20" fill="#222">文档 MCP</text>
+  <rect x="76" y="468" width="176" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="164" y="506" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="18" fill="#222">需求 MCP</text>
+  <rect x="274" y="468" width="176" height="64" rx="10" fill="#fff" stroke="#1a1a1a" stroke-width="2"/>
+  <text x="362" y="506" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="18" fill="#222">More...</text>
+  <line x1="263" y1="392" x2="263" y2="300" stroke="#666" stroke-width="2"/>
+  <polygon points="263,300 257,312 269,312" fill="#666"/>
+
+  <line x1="478" y1="230" x2="548" y2="230" stroke="#666" stroke-width="2"/>
+  <polygon points="548,230 536,224 536,236" fill="#666"/>
+
+  <rect x="560" y="48" width="120" height="524" rx="16" fill="#d8f5d4" stroke="#3cb371" stroke-width="3"/>
+  <text x="620" y="310" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="28" fill="#222">LLM</text>
+
+  <line x1="680" y1="310" x2="748" y2="310" stroke="#666" stroke-width="2"/>
+  <polygon points="748,310 736,304 736,316" fill="#666"/>
+
+  <rect x="760" y="48" width="140" height="524" rx="16" fill="#ffe8d4" stroke="#f0a060" stroke-width="3"/>
+  <text x="830" y="300" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="22" fill="#222">CR</text>
+  <text x="830" y="332" text-anchor="middle" font-family="PingFang SC, Helvetica, sans-serif" font-size="22" fill="#222">报告</text>
+</svg>

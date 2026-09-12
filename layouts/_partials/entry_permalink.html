@@ -1,0 +1,5 @@
+{{- with .Params.redirect_url -}}
+{{- . -}}
+{{- else -}}
+{{- .Permalink -}}
+{{- end -}}
